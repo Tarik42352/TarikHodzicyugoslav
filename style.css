@@ -6,8 +6,16 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: #0f1117;
-    color: #ffffff;
+font-family: Arial, sans-serif;
+background-color: lightblue;
+font-family: Arial;
 }
 
+
+h1 {
+color: darkblue;
+}
+
+img {
+border: 3px solid black;
+}
