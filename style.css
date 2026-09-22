@@ -11,8 +11,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #0f1117;
-    color: white;
+    background: #0f0b16;
+    color: #ffffff;
     line-height: 1.6;
 }
 
@@ -34,38 +34,34 @@ nav {
     justify-content: space-between;
     align-items: center;
 
-    background: rgba(15, 17, 23, 0.9);
+    background: rgba(15, 11, 22, 0.9);
+    backdrop-filter: blur(12px);
 
-    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #2a2035;
 
     z-index: 1000;
-
-    border-bottom: 1px solid #252936;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
+    color: #a855f7;
 }
 
 nav ul {
     display: flex;
-
     list-style: none;
-
     gap: 30px;
 }
 
 nav a {
-    color: white;
-
+    color: #ffffff;
     text-decoration: none;
-
     transition: 0.3s;
 }
 
 nav a:hover {
-    color: #6c8cff;
+    color: #a855f7;
 }
 
 
@@ -86,14 +82,13 @@ nav a:hover {
 }
 
 .hero-content {
-    max-width: 800px;
+    max-width: 850px;
 }
 
 .small-title {
-    color: #6c8cff;
+    color: #a855f7;
 
     font-size: 14px;
-
     font-weight: bold;
 
     letter-spacing: 3px;
@@ -103,35 +98,31 @@ nav a:hover {
 
 .hero h1 {
     font-size: clamp(50px, 8vw, 90px);
-
     margin-bottom: 15px;
 }
 
 .hero h1 span {
-    color: #6c8cff;
+    color: #a855f7;
 }
 
 .subtitle {
-    color: #aeb4c2;
-
+    color: #b8adbf;
     font-size: 21px;
-
     margin-bottom: 35px;
 }
 
 
 /* =========================
-   BUTTON
+   PURPLE BUTTONS
 ========================= */
 
 .button {
     display: inline-block;
 
-    padding: 13px 26px;
+    padding: 14px 28px;
 
-    background: #6c8cff;
-
-    color: white;
+    background: #9333ea;
+    color: #ffffff;
 
     text-decoration: none;
 
@@ -139,13 +130,17 @@ nav a:hover {
 
     font-weight: bold;
 
+    box-shadow: 0 0 20px rgba(147, 51, 234, 0.25);
+
     transition: 0.3s;
 }
 
 .button:hover {
+    background: #a855f7;
+
     transform: translateY(-3px);
 
-    opacity: 0.9;
+    box-shadow: 0 0 30px rgba(168, 85, 247, 0.45);
 }
 
 
@@ -168,7 +163,7 @@ section h2 {
 }
 
 section h2 span {
-    color: #6c8cff;
+    color: #a855f7;
 }
 
 
@@ -179,7 +174,7 @@ section h2 span {
 .about-text {
     max-width: 750px;
 
-    color: #aeb4c2;
+    color: #b8adbf;
 
     font-size: 18px;
 }
@@ -201,13 +196,13 @@ section h2 span {
 }
 
 .card {
-    background: #171a23;
+    background: #18121f;
 
     padding: 30px;
 
     border-radius: 12px;
 
-    border: 1px solid #252936;
+    border: 1px solid #2a2035;
 
     transition: 0.3s;
 }
@@ -215,7 +210,9 @@ section h2 span {
 .card:hover {
     transform: translateY(-6px);
 
-    border-color: #6c8cff;
+    border-color: #9333ea;
+
+    box-shadow: 0 10px 35px rgba(147, 51, 234, 0.15);
 }
 
 .card h3 {
@@ -223,17 +220,23 @@ section h2 span {
 }
 
 .card p {
-    color: #aeb4c2;
+    color: #b8adbf;
 
     margin-bottom: 20px;
 }
 
 .card a {
-    color: #6c8cff;
+    color: #a855f7;
 
     text-decoration: none;
 
     font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.card a:hover {
+    color: #c084fc;
 }
 
 
@@ -246,7 +249,7 @@ section h2 span {
 }
 
 .contact p {
-    color: #aeb4c2;
+    color: #b8adbf;
 
     margin-bottom: 25px;
 }
@@ -261,9 +264,9 @@ footer {
 
     padding: 30px;
 
-    border-top: 1px solid #252936;
+    border-top: 1px solid #2a2035;
 
-    color: #777d8c;
+    color: #777080;
 }
 
 
@@ -279,7 +282,6 @@ footer {
 
     nav ul {
         gap: 12px;
-
         font-size: 14px;
     }
 
